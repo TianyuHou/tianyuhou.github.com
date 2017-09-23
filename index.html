@@ -132,6 +132,7 @@
 				background-size: cover;
 				background-position-y: center
 				height: 530px;
+				position: relative;
 			}
 		</style>
 
@@ -166,23 +167,18 @@
 				<li role="presentation">
 					<a href="#9" class="smooth">Photos</a>
 				</li>
-				<li role="presentation" class="pull-right" style="margin-right: 80px;">
-					<a tabindex="0" class="btn btn-lg btn-danger" role="button" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-content="e-mail: hou.tia@husky.neu.edu phone: 857-769-1473">
-						Contact Me</a>
-				</li>
 
 			</ul>
 		</div>
 
 		<!--2.summary-->
 		<div class="container" id="2">
-			<div class="jumbotron" style="height: 530px; margin-top: 20px;">
-				<h1>Hi, Welcome To My Life!</h1>
+			<div class="jumbotron" style="height: 530px; margin-top: 20px; position: relative;">
+				<h1 style="position:absolute; top:6%; left: 5%;">Hi, Welcome To My Life!</h1>
 				<br />
-				<p>In here, you will know all about me, the real me.</p>
-				<p>
-					<a class="btn btn-primary btn-lg" href="#9" role="button" style="position:relative; top: 110%; right: -85%;">More&nbsp;&nbsp;Pictures</a>
-				</p>
+				<p style="position:absolute; top:26%; left: 8%;">In here, you will know all about me, the real me.</p>
+				<a tabindex="0" class="btn btn-lg btn-danger" style="position:absolute; bottom:30px; right: 100px;" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" data-content="e-mail: hou.tia@husky.neu.edu &nbsp;&nbsp; phone: 857-769-1473">
+						Contact Me</a>
 			</div>
 
 		</div>
@@ -281,9 +277,10 @@
 
 		<!--4.education-->
 		<div id="4" class="container">
-			<div class="row title bg" style="background-image: url(img/educationBG.jpg);">
-				<div class="col-lg-6 col-sm-6" style="padding-right: 50px;">
-					<br /><br /><br /><br /><br /><br />
+			<div class="row title" style="position:relative">
+				<div class="col-lg-6 col-sm-6" style="position:relative;">
+					<img src="img/education1.jpg" width="100%" />
+					<div style="position: absolute; top: 20%; left: 10%;">
 					<h3 id="university">Southwest University</h3> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 					<span id="edutext">Chongqing City, China</span><br/><br/>
 					<p id="edutext">
@@ -296,9 +293,11 @@
 						<font id="edutitle">Bachelor of Economics in Finance, School of Economics and Management </font><br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sep. 2012-Jul. 2014 <br/>
 						<font id="edutitle">Relevant Courses</font>: &nbsp;Principles of Management, Principles of Statistics, Microeconomics, Macroeconomics.
 					</p>
+					</div>
 				</div>
-				<div class="col-lg-6 col-sm-6">
-					<br /><br /><br /><br /><br /><br />
+				<div class="col-lg-6 col-sm-6" style="position:relative;">
+					<img src="img/education2.jpg"  width="100%" />
+					<div style="position: absolute; top: 20%; left: 10%;">
 					<h3 id="university">Northeastern University</h3> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 					<span id="edutext">Seattle, WA, U.S</span><br/><br/>
 					<p id="edutext">
@@ -307,7 +306,11 @@
 						<font id="edutitle">Ranking </font>:&nbsp;&nbsp;<br/>
 						<font id="edutitle">Relevant Knowledge</font>: &nbsp;Application Engineering and Development, Web Design and User Experience Engineering, Program Structure and Algorithms, Data Management and Database Design, Web Development Tools and Methods, Smartphones-Based Web Development, etc.<br/> <br/>
 					</p>
+					</div>
 				</div>
+			</div>
+			<div class="row">
+				<img class="img-responsive" src="img/logoEdu.jpg" width="100%" height="100%" />
 			</div>
 		</div>
 
